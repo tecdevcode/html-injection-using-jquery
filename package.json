@@ -1,17 +1,18 @@
 {
-    "name": "html-includes",
+    "name": "html-injection-using-jquery",
     "version": "1.0.0",
-    "description": "Testing HTML includes",
-    "main": "app/index.html",
+    "description": "Example of injecting HTML content using jQuery.",
+    "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
         "html",
-        "includes"
+        "injection",
+        "jquery"
     ],
     "author": "Iván Sainz",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "browser-sync": "^2.26.3",
         "gulp": "^4.0.0"
