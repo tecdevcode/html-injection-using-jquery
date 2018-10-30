@@ -1,0 +1,22 @@
+{
+    "name": "html-includes",
+    "version": "1.0.0",
+    "description": "Testing HTML includes",
+    "main": "app/index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "html",
+        "includes"
+    ],
+    "author": "Iván Sainz",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1"
+    }
+}

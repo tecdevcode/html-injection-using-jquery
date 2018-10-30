@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>This page uses includes with jQuery</title>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#header").load("_header.html");
+            $("#menu").load("_menu.html");
+            $("#footer").load("_footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <p>This content is part of the body</p>
+    <aside id="menu"></aside>
+    <div id="footer"></div>
+</body>
+</html>
