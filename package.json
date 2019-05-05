@@ -14,10 +14,10 @@
     "author": "Iván Sainz",
     "license": "MIT",
     "devDependencies": {
-        "browser-sync": "^2.26.3",
+        "browser-sync": "^2.26.5",
         "gulp": "^4.0.0"
     },
     "dependencies": {
-        "jquery": "^3.3.1"
+        "jquery": "^3.4.1"
     }
 }
